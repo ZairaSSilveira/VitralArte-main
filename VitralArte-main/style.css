@@ -1,0 +1,253 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/*  ************  */
+/* FONTES */
+@font-face{
+    font-family: 'OpenSans Regular';
+    src: url(Font/OpenSans-Regular.ttf);
+} 
+@font-face {
+    font-family:'Poppins Bold';
+    src: url(Font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: 'Poppins Regular';
+    src: url(Font/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url(Font/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family:'Roboto Regular';
+    src: url(Font/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: 'Open-Sans Bold';
+    src: url(Font/Poppins-Bold.ttf);
+}
+/* // */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+/* CONTATO */
+.contato{
+    background-color: #106eea;
+}
+/* .contato{
+
+    justify-content: flex-start;
+    height: 30px;
+} */
+.contato .container{
+    /* margin-right: 100px; */
+    height: 35px;
+    justify-content: flex-start;
+
+}
+.contato .container  a{
+    font: 500 20px  'OpenSans Regular';
+    color: white;
+    margin-right: 100px;
+}
+.logo .nome{
+    font: 700 40px 'Poppins Bold';
+}
+.menu a{
+    font: 500 22px 'Open-Sans Regular';
+    color: black;
+    margin-left: 60px;
+}
+
+/* INICIO */
+.Início{
+    background-image: url(img/Vitral.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Início .container{
+    height: 400px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.titulo-inicio{
+    font: 700 50px 'Poppins Bold';
+}
+.texto-inicio{
+    font: 500 26px 'Poppins Regular';
+}
+/* TITULO */
+.titulo{
+    font: 700 40px 'Roboto Bold'; 
+    color: black;
+}
+span{
+    color: #106eea;
+}
+/* texto */
+
+.texto{
+    font: 500 20px 'OpenSans Regular';
+}
+.conteudo{
+    text-align: center;
+
+}
+.sobreNos .imagem img{
+    width: 500px;
+    margin-left: 100px;
+}
+.sobreNos .conteudo .texto{
+    text-align: justify;
+
+}
+.sobreNos .conteudo{
+    margin-left: 100px ;
+}
+/* INFOS */
+.infos .quadrados .quadrado img{
+    width: 100px;
+
+}
+.infos .quadrados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.quadrado{
+    background-color: #F1F6FE;
+    border: 1px solid #8ca9ce;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+}
+/* DIVISAO */
+.divisao{
+    background-color: #1150a3;
+    height: 2px ;
+}
+/* servicos */
+.servicos .container{
+    flex-direction: column;
+
+}
+.servico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.servico .servico-titulo{
+    font: 700 24px 'Roboto Bold';
+    align-items: center;
+}
+
+.servico .servico-nome{
+    border: 2px solid #8ca9ce ;
+    width: 275px;
+    height: 180px;
+    align-items: center;
+    margin: 0 30px;
+}
+/* equipe */
+.equipe .container{
+    flex-direction: column;
+}
+.equipe .pessoas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equipe .pessoas .pessoa{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 25px;
+
+}
+.equipe .conteudo .texto{
+    text-align: justify;
+
+}
+/* formulario */
+
+.formulario .container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.endereco{
+    width: 250px;
+    border: 3px solid #1150a3;
+    height: 400px;
+    text-align: center;
+    padding: 80px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+input{
+    height: 60px;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+textarea{
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+button{
+    background-color: #106eea;
+    color: white;
+    font: 700 20px 'Roboto Bold';
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 0 60px;
+}
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section,
+main .conteudo,
+.divisao{
+    margin-bottom: 80px;
+}
